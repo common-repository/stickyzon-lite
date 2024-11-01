@@ -1,0 +1,164 @@
+/*
+Description: Custom CSS for StickyZon Lite WordPress Plugin.
+Author: Ziki De Naim
+Author URI: http://StickyZon.com/
+Version: 1.1.2
+*/
+
+#sz-wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#sz-widget-title {
+	float: left;
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#sz-product-wrap {
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sz-product-img {
+	float: left;
+	width: 100%;
+	min-height: 160px;
+	text-align: center;
+}
+
+.sz-product-img {
+
+}
+
+#sz-product-wrap img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+#sz-product-title {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#sz-product-price {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#sz-product-link {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#sz-sponsor {
+	float: left;
+	width: 100%;
+	text-align: right;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+/*************************************************************************/
+/* Smaller Screen Mods */
+/*************************************************************************/
+@media screen and (max-width: 767px) {  
+	#sz-product-wrap {
+		width: 50%;
+	}
+}  
+
+@media only screen and (max-width: 550px) {
+	#sz-product-wrap {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 480px) {  
+	#sz-product-wrap {
+		width: 100%;
+	}
+}  
+
+/* iPhone portrait *******/
+@media only screen and (max-width: 320px) {
+	#sz-product-wrap {
+		width: 100%;
+	}
+}
+
+
+/*************************************************************************/
+/* Plugin Styles */
+/*************************************************************************/
+a.sm_button {
+	background-position: 5px 50%;
+    background-repeat: no-repeat;
+    border: medium none;
+    display: block;
+    padding: 4px 4px 4px 25px;
+    text-decoration: none;
+}
+
+
+a.sm_pluginHome {
+    background-image: url('images/home.png');
+}
+
+a.sm_pluginSupport {
+    background-image: url('images/mail.png');
+}
+
+a.sm_pluginBugs {
+    background-image: url('images/bug.png');
+}
+
+a.sm_pluginReview {
+    background-image: url('images/review.png');
+}
+
+a.sm_donatePayPal {
+    background-image: url('images/paypal.png');
+}
+
+a.sm_pluginFacebook {
+    background-image: url('images/facebook.png');
+}
+
+a.sm_pluginTwitter {
+    background-image: url('images/twitter.png');
+}
+
+.tooltips {
+	width: 12px;
+    background-image: url('images/question_blue.png ');
+}
+
+.tooltip {
+    display:none;
+    background: transparent url('/images/facebook.png');
+    font-size:12px;
+    height:70px;
+    width:160px;
+    padding:25px;
+    color:#eee;
+}
+
+
+
+
+

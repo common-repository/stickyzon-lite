@@ -1,0 +1,1 @@
+jQuery.noConflict();jQuery(function() {	jQuery("#poststuff img[title]").tooltip();});jQuery(document).ready(function($) {        $("a[rel^='prettyPhoto']").prettyPhoto(); });
